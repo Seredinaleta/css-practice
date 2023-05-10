@@ -11,6 +11,7 @@ margin: 0 auto;
 }
 .header {
 padding: 24px;
+border-bottom: 1px solid #DEE2E6
 }
 .header_logo {
   font-size: 17px;
@@ -51,6 +52,7 @@ padding: 24px;
 }  
 .footer {
   padding: 24px 0;
+  border-top: 1px solid #DEE2E6
 }
 .footer_copyright {
   font-size: 14px;
@@ -70,6 +72,10 @@ padding: 24px;
   font-weight: 500;
   margin-bottom: 12px;
   text-align: center;
+  
+}
+h1 {
+  text-shadow: 2px 3px 5px gray;
 }
 .hero-text {
   color: #212529;
@@ -77,8 +83,22 @@ padding: 24px;
   text-align: center;
   max-width: 585px;
   margin: 0 auto;
+  line-height: 1,35;
 }
+.card {
+  border: 1px solid #007BFF;
+  border-radius: 0%;
 
+}
+.card:hover {
+  outline:1px solid #007BFF;
+  outline-offset: 1px;
+  box-shadow: 0px 0px 2px 3px rgb(169, 169, 178);
+  cursor: pointer;
+}
+.btn:hover {
+  box-shadow: 0px 0px 2px 2px rgb(169, 169, 178);
+}
 .plans_card:not(:last-of-type) {
   margin-right: 24px;
 }
@@ -95,18 +115,16 @@ padding: 24px;
 .card_block {
   text-align: center;
   margin-bottom: 24px;
-  
-}
-.card_block:not(:last-of-type) {
+  }
 
-}
 .card_price_amount {
   font-size: 40px;
   font-weight: 500;
 }
 .card_price_duration {
   color: #6C757D;
-  font-size: 29px;
+  font-size: 20px;
+  vertical-align: 16px;
 }
 .card_description {
   margin-bottom: 24px;
@@ -123,4 +141,7 @@ padding: 24px;
   width: 100%;
   font-size: 19px;
   padding: 9px;
+}
+.plans_card:nth-child(2)>.card {
+  background-color: red;
 }
