@@ -273,24 +273,3 @@ gap: 24px;
 
 flex-basis: calc(50% - (24px/2));
 }
-.flex_item:last-of-type {
-  /* align-self: flex-start;
-  height: 300px; */
-}
-.flex_item:first-of-type {
-  /* margin-right: 24px;
-  margin-bottom: 24px; */
-  /* flex-basis: calc(50% - 24px); */
-  /* align-self: center;
-  height: 100px; */
-}
-.flex_item:nth-of-type(2) {
-  /* margin-right: 24px; */
-  /* margin-bottom: 24px; */
-  /* width: calc(50% - 24px); */
-
-}
-.flex_item:nth-of-type(3) {
-  /* margin-right: 24px; */
-  /* flex-basis: calc(50% - 24px); */
-}
