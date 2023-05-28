@@ -35,11 +35,14 @@ justify-content: space-between;
   color: #343A40;
   font-size: 16px;
   text-decoration: none;
+  
 }
 .nav_link:hover {
   text-decoration: underline;
   color: #007BFF;
+  
 }
+
 .nav_vertical>.nav_link {
   display: block;
 }
