@@ -9,14 +9,15 @@
       </div>
     </nav>
   </header>
-  <input type="text" class="input">
-  <div class="modal">
+  {{!-- <input type="text" class="input"> --}}
+  {{!-- <div class="modal">
     {{hero.text}}
     <img class='modal_image' src="{{hero.photo}}" alt="hero image">
     <div class="modal_text">{{hero.text}}{{hero.text}}</div>
     
-  </div>
+  </div> --}}
   {{#with hero}}
+  <div class="hero_container">
   <div class="hero">
     <div class="hero_content">
       <h1 class="hero_title">
@@ -29,6 +30,7 @@
     <img class='hero_image' src="{{photo}}" alt="hero image">
     <div class="hero_slider-icon hero_slider-right">{{right}}</div>
     </div>
+  </div>
   </div>
   {{/with}}
   <main class="blog">
