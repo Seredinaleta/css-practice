@@ -402,7 +402,12 @@ body {
       grid-template-columns: 1fr;
       
     } 
-
+    .feat_card_big {
+      grid-row: auto;
+  }
+  .advantages_title_container {
+    grid-column: 2/5; 
+  }   
     .hero_buttons {
       grid-template-columns: 1fr;
       gap: var(--spacing-2);
